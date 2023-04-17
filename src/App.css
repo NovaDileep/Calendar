@@ -46,9 +46,18 @@
 /* .lineChart {
   width: 50%;
 } */
-/* .charts {
+.charts {
   display: flex;
-} */
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  /* flex-direction: row; */
+}
+#root {
+  display: flex;
+  flex-flow: wrap;
+}
 /* .charts-heatmap {
   width: 50%;
   height: 50%;
